@@ -5,14 +5,15 @@ Jason Rolando Melara Fuentes
 Jonathan Xavier Salinas Martinez
 Amy Alejandra Jarquin Escalante
 ## Rutas implementadas
-- `/productos/` → Listas de productos (ListView)
-- `/productos/nuevo/` → Crear producto (CreateView)
-- `/productos/editar/<id>/` → Editar producto (UpdateView, opcional)
-- `/productos/eliminar/<id>/` → Eliminar producto (DeleteView, opcional)
+- /productos/ → Vista de listado de productos (ListView)
+- /productos/nuevo/ → Formulario para añadir un producto (CreateView)
+- /productos/editar/<id>/ → Formulario para modificar un producto (UpdateView, opcional)
+- /productos/eliminar/<id>/ → Opción para borrar un producto (DeleteView, opcional)
 
-## Descripción del funcionamiento
-El proyecto permite gestionar productos mediante vistas genéricas de Django. Se puede:
-- Listar todos los productos.
-- Crear nuevos productos.
-- Editar o eliminar productos (opcional).
-- Las vistas usan templates con Bootstrap para mejorar la visualización.
+Descripción del funcionamiento
+El sistema administra el catálogo de productos utilizando vistas genéricas de Django. Permite:
+- Mostrar en una lista todos los productos registrados.
+- Añadir nuevos productos mediante un formulario.
+- Modificar o eliminar productos como funcionalidades opcionales.
+- Emplear plantillas con Bootstrap para una presentación responsiva y ordenada.
+
